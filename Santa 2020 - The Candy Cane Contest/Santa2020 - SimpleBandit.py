@@ -4,6 +4,7 @@ from kaggle_environments import make
 
 N = None
 Q = None
+R_total = 0
 epsilon = 0.15
 
 def random_agent(observation, configuration):
